@@ -13,6 +13,24 @@ npm install grapheme-counter
 ```
 Alternatively, you can directly include the GraphemeCounter.js file in your project.
 
+***
+## API
+
+* `initStringCountProperty()`
+Initializes the count property on the String.prototype, allowing direct usage on strings.
+
+* `countCharacters(str)`
+Counts the number of grapheme clusters in the input string str, accounting for combined emoji sequences and diacritical marks.
+
+* `str (String)`
+The input string to count grapheme clusters in.
+Returns an object with the following properties:
+
+* `count (Number)`
+The count of grapheme clusters in the input string.
+[Example-Counts](#examples)
+
+
 ## Usage
 
 Using String.prototype.count Property
@@ -37,23 +55,7 @@ console.log('Grapheme cluster count:', count); // Output: 11
 ```
 
 
-***
-## API
 
-* `initStringCountProperty()`
-Initializes the count property on the String.prototype, allowing direct usage on strings.
-
-* `countCharacters(str)`
-Counts the number of grapheme clusters in the input string str, accounting for combined emoji sequences and diacritical marks.
-
-* `str (String)`
-The input string to count grapheme clusters in.
-Returns an object with the following properties:
-
-* `count (Number)`
-The count of grapheme clusters in the input string.
-Examples
-For more examples, refer to the index.js file in this repository.
 
 ***
 ## Examples

@@ -1,0 +1,18 @@
+# Node.js dependencies
+node_modules/
+
+# Compiled output
+dist/
+build/
+out/
+
+# macOS
+.DS_Store
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Logs and databases
+*.log
+*.sqlite

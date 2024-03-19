@@ -2,11 +2,28 @@
   "name": "grapheme-counter",
   "version": "1.0.0",
   "description": "This script allows to count graphemeClusters in a string or combined emojis as 1 character.",
-  "main": "index.js",
+  "main": "/dist/GraphemeCounter.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src --out-dir dist"
   },
-  "keywords": ["grapheme cluster", "emojis", "count", "string.length"],
+  "keywords": [
+    "grapheme cluster",
+    "emojis",
+    "count",
+    "string.length"
+  ],
   "author": "Barbara Kälin aka BarbWire-1",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.1",
+    "@babel/preset-env": "^7.24.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BarbWire-1/grapheme-counter/tree/main"
+  },
+  "bugs": {
+    "url": "https://github.com/BarbWire-1/grapheme-counter/issues"
+  }
 }
