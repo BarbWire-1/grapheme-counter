@@ -36,13 +36,9 @@ console.log('Grapheme cluster count:', count); // Output: 11
 
 
 ## Examples
-<!-- Include the Prism.js library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
-
 <details>
   <summary>Click to view examples</summary>
-  <pre><code class="language-javascript">
+  <pre><code>
     const examples = {
         Greek: "Γειά σου Κόσμε",// 14
         Korean: "안녕하세요 세상",// 8
@@ -72,7 +68,6 @@ console.log('Grapheme cluster count:', count); // Output: 11
     }
   </code></pre>
 </details>
-
 
 ## API
 
