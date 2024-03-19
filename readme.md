@@ -31,12 +31,13 @@ The count of grapheme clusters in the input string.
 [Example-Counts](#examples)
 
 
-## Usage
+## Usage in vanilla JS - copy the GraphemeCounter.js
+In node require the package.
 
 Using String.prototype.count Property
 ```js
 // Import and initialize the count property on String.prototype
-import { initStringCountProperty } from 'grapheme-counter';
+import { initStringCountProperty } from 'GraphemeCounter.js';
 initStringCountProperty();
 
 // Use the count property directly on strings
@@ -46,7 +47,7 @@ console.log(text.count); // Output: 11
 Using countCharacters Function-return ({count})
 ```js
 // Import the countCharacters function
-import { countCharacters } from 'grapheme-counter';
+import { countCharacters } from 'GraphemeCounter.js';
 
 // Count grapheme clusters in a string
 const text = 'A flag 🏳️‍🌈!!!';
