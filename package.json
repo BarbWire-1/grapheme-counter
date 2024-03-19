@@ -1,0 +1,12 @@
+{
+  "name": "grapheme-counter",
+  "version": "1.0.0",
+  "description": "This script allows to count graphemeClusters in a string or combined emojis as 1 character.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["grapheme cluster", "emojis", "count", "string.length"],
+  "author": "Barbara Kälin aka BarbWire-1",
+  "license": "MIT"
+}
