@@ -2,8 +2,8 @@
 
 `Grapheme-Counter` is a JavaScript library that provides functions for giving the "correct" length of any strings bycounting grapheme clusters in strings, accounting for combined emoji sequences and diacritical marks. It offers two main methods of usage: as a standalone function or by extending the `String.prototype` with a `count` property.
 
-# [Documentaion](documentation.md)
-
+### [Documentaion](documentation.md)
+***
 ## Installation
 
 You can install Grapheme-Counter via npm:
@@ -37,6 +37,25 @@ console.log('Grapheme cluster count:', count); // Output: 11
 ```
 
 
+***
+## API
+
+* `initStringCountProperty()`
+Initializes the count property on the String.prototype, allowing direct usage on strings.
+
+* `countCharacters(str)`
+Counts the number of grapheme clusters in the input string str, accounting for combined emoji sequences and diacritical marks.
+
+* `str (String)`
+The input string to count grapheme clusters in.
+Returns an object with the following properties:
+
+* `count (Number)`
+The count of grapheme clusters in the input string.
+Examples
+For more examples, refer to the index.js file in this repository.
+
+***
 ## Examples
 <details>
   <summary>Click to view examples</summary>
@@ -73,23 +92,7 @@ console.log('Grapheme cluster count:', count); // Output: 11
   </code></pre>
 </details>
 
-## API
-
-* `initStringCountProperty()`
-Initializes the count property on the String.prototype, allowing direct usage on strings.
-
-* `countCharacters(str)`
-Counts the number of grapheme clusters in the input string str, accounting for combined emoji sequences and diacritical marks.
-
-* `str (String)`
-The input string to count grapheme clusters in.
-Returns an object with the following properties:
-
-* `count (Number)`
-The count of grapheme clusters in the input string.
-Examples
-For more examples, refer to the index.js file in this repository.
-
+***
 ## Compatibility
 * Requires ECMAScript 6 (ES6) support.
 * Compatible with modern browsers and environments that support Unicode regular expressions.
