@@ -90,7 +90,7 @@ console.log('Grapheme cluster count:', count); // Output: 11
     };
 
     for (const [language, str] of Object.entries(examples)) {
-         console.log(`${language}: ${str}:\n ${str.count}`);
+         console.log(str.count);
     }
 
   </code></pre>
