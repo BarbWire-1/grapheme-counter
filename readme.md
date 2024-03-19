@@ -1,6 +1,6 @@
 # Grapheme-Counter
 
-`Grapheme-Counter` is a JavaScript library that provides functions for giving the "correct" length of any strings bycounting grapheme clusters in strings, accounting for combined emoji sequences and diacritical marks. It offers two main methods of usage: as a standalone function or by extending the `String.prototype` with a `count` property.
+`Grapheme-Counter` is a lighweight JavaScript library (1.6Kb!) that provides functions for giving the "correct" length of any strings by counting grapheme clusters, accounting for combined emoji sequences and diacritical marks. It offers two main methods of usage: as a standalone function or by extending the `String.prototype` with a `count` property.
 
 ### [Documentaion](documentation.md)
 ***
