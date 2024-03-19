@@ -32,7 +32,7 @@ The count of grapheme clusters in the input string.
 
 
 ## Usage
-In vanilla JS - copy the GraphemeCounter.js
+In vanilla JS - copy the GraphemeCounter.js into your project.
 In node require the package.
 
 Using String.prototype.count Property
