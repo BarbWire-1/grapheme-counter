@@ -1,10 +1,12 @@
 # Grapheme-Counter
 
-`grapheme-counter` is a JavaScript library that provides functions for counting grapheme clusters in strings, accounting for combined emoji sequences and diacritical marks. It offers two main methods of usage: as a standalone function or by extending the `String.prototype` with a `count` property.
+`Grapheme-Counter` is a JavaScript library that provides functions for giving the "correct" length of any strings bycounting grapheme clusters in strings, accounting for combined emoji sequences and diacritical marks. It offers two main methods of usage: as a standalone function or by extending the `String.prototype` with a `count` property.
+
+## [Documentaion](documentation.md)
 
 ## Installation
 
-You can install Grapheme Counter via npm:
+You can install Grapheme-Counter via npm:
 
 ```bash
 npm install grapheme-counter
