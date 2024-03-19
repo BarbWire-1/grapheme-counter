@@ -31,7 +31,8 @@ The count of grapheme clusters in the input string.
 [Example-Counts](#examples)
 
 
-## Usage in vanilla JS - copy the GraphemeCounter.js
+## Usage
+In vanilla JS - copy the GraphemeCounter.js
 In node require the package.
 
 Using String.prototype.count Property
